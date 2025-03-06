@@ -25,7 +25,6 @@ class DatabaseSeeder extends Seeder
 
         $this->call([
             CategorySeeder::class,
-            SubcategorySeeder::class,
             BlogSeeder::class
         ]);
     }
