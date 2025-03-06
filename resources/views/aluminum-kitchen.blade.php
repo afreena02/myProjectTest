@@ -16,7 +16,7 @@
                         <div class="breadcrumb-menu-2 d-flex justify-content-center">
                             <nav aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs">
                                 <ul class="trail-items-2">
-                                    <li class="trail-item-2 trail-begin"><a href="{{ url('/index') }}"><span>Home</span></a></li>
+                                    <li class="trail-item-2 trail-begin"><a href="{{ url('/') }}"><span>Home</span></a></li>
                                     <li class="trail-item-2 trail-center"><a href="{{ url('/service') }}"><span>Services</span></a></li>
                                     <li class="trail-item-2 trail-end"><span>Aluminum Doors & windows</span></li>
                                 </ul>
@@ -35,7 +35,7 @@
             <div class="row g-50 align-items-center">
                 <div class="col-lg-6 order-lg-0 order-1 p-relative">
                     <div class="df-service5__thumb">
-                        <img src="assets/img/services/allumini.webp" alt="img not found">
+                        <img src="{{ asset('assets/img/services/allumini.webp')}}" alt="img not found">
                     </div>
                    
                 </div>
@@ -155,9 +155,9 @@
                     <div class="df-requirement__button-wrapper">
                         <a href="{{ url('/contact') }}" class="primary-btn">Contact Us
                             <span class="icon__box">
-                                <img class="icon__first" src="assets/img/icon/arrow-white.webp"
+                                <img class="icon__first" src="{{ asset('assets/img/icon/arrow-white.webp')}}"
                                     alt="image not found">
-                                <img class="icon__second" src="assets/img/icon/arrow-white.webp"
+                                <img class="icon__second" src="{{ asset('assets/img/icon/arrow-white.webp')}}"
                                     alt="image not found">
                             </span>
                         </a>

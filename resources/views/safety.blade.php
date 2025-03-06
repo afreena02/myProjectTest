@@ -16,7 +16,7 @@
                         <div class="breadcrumb-menu-2 d-flex justify-content-center">
                             <nav aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs">
                                 <ul class="trail-items-2">
-                                    <li class="trail-item-2 trail-begin"><a href="{{ url('/index') }}"><span>Home</span></a></li>
+                                    <li class="trail-item-2 trail-begin"><a href="{{ url('/') }}"><span>Home</span></a></li>
                                     <li class="trail-item-2 trail-end"><span>Products</span></li>
                                 </ul>
                             </nav>
@@ -37,12 +37,12 @@
                         <div class="product-left-item mb-45">
                             <h6 class="product-widget-title">Product categories</h6>
                              <ul class="product-categories">
-                                <li><a href="plumbing-items.html">Plumbing Items</a></li>
-                                <li class="cat-item cat-item-62"><a href="electrical-items.html">Electrical Items</a></li>
-                                <li><a href="sanitary-items.html">Sanitary Items</a></li>
-                                <li><a href="safety-items.html">Safety Items</a></li>
-                                <li><a href="Paints.html">Paint Items</a></li>
-                                <li><a href="other-items.html">Other Items</a></li>
+                                <li><a href="{{ url('/plumbing') }}">Plumbing Items</a></li>
+                                <li class="cat-item cat-item-62"><a href="{{ url('/electrical') }}">Electrical Items</a></li>
+                                <li><a href="{{ url('/sanitary') }}">Sanitary Items</a></li>
+                                <li><a href="{{ url('/safety') }}">Safety Items</a></li>
+                                <li><a href="{{ url('/paint') }}">Paint Items</a></li>
+                                <li><a href="{{ url('/other') }}">Other Items</a></li>
                             </ul>
                         </div>
                         

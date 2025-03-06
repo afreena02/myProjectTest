@@ -6,7 +6,7 @@
                     <div class="footer__widget col-lg-4 col-md-6 col-12 mt-5">
                         <div class="mb-40">
                             <div class="df-footer__logo mb-30">
-                                <a href="index.html"><img src="{{ asset('assets/img/logo/logo.png')}}" alt="image not found"></a>
+                                <a href="{{ url('/') }}"><img src="{{ asset('assets/img/logo/logo.png')}}" alt="image not found"></a>
                             </div>
                             
                         </div>
@@ -27,7 +27,7 @@
                         <h4 class="footer__widget-title">Company</h4>
                         <div class="footer__links underline">
                             <ul>
-                                <li><a href="{{ url('/index') }}">Home</a></li>
+                                <li><a href="{{ url('/') }}">Home</a></li>
                                 <li><a href="{{ url('/service') }}">Services</a></li>
                                 <li><a href="{{ url('/about') }}">About Us</a></li>
                                 <li><a href="{{ url('/contact') }}">Contact</a></li>

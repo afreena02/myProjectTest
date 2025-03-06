@@ -6,7 +6,7 @@
                     <div class="header__main-content-wrapper p-relative">
                         <div class="header__main-left">
                             <div class="header__logo">
-                                <a href="{{ url('/index') }}" class="logo-dark"><img src="{{ asset('assets/img/logo/logo.png')}}" alt="logo-img" width="120"></a>
+                                <a href="{{ url('/') }}" class="logo-dark"><img src="{{ asset('assets/img/logo/logo.png')}}" alt="logo-img" width="120"></a>
                             </div>
                             <div class="area-separator d-none d-lg-inline-flex"></div>
                             <div class="location-search">
@@ -18,7 +18,7 @@
                                 <nav id="mobile-menu">
                                     <ul>
                                         <li class="menu-item-has-children">
-                                            <a href="{{ url('/index') }}">Home</a>
+                                            <a href="{{ url('/') }}">Home</a>
                                             
                                         </li>
                                         <li class="menu-item-has-children">

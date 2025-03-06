@@ -16,7 +16,7 @@
                         <div class="breadcrumb-menu-2 d-flex justify-content-center">
                             <nav aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs">
                                 <ul class="trail-items-2">
-                                    <li class="trail-item-2 trail-begin"><a href="{{ url('/index') }}"><span>Home</span></a></li>
+                                    <li class="trail-item-2 trail-begin"><a href="{{ url('/') }}"><span>Home</span></a></li>
                                     <li class="trail-item-2 trail-center"><a href="{{ url('/service') }}"><span>Services</span></a></li>
                                     <li class="trail-item-2 trail-end"><span>Flooring Works</span></li>
                                 </ul>

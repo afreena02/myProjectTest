@@ -27,7 +27,7 @@
             <div class="side-info-content">
                 <div class="offset__widget offset__header">
                     <div class="offset__logo">
-                        <a href="index.html">
+                        <a href="{{ url('/') }}">
                             <img src="{{asset('assets/img/logo/logo-white.png')}}" alt="logo">
                         </a>
                     </div>
