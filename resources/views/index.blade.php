@@ -167,7 +167,7 @@
                             </ul>
                         </div>
                         <div class="df-about2__button">
-                            <a href="about-v2.html" class="primary-btn">Know More
+                            <a href="{{ url('/about') }}" class="primary-btn">Know More
                                 <span class="icon__box">
                                     <img class="icon__first" src="{{ asset('assets/img/icon/arrow-white.webp')}}"
                                         alt="image not found">
@@ -204,11 +204,11 @@
                                 <div class="service3__img bg-1">
                                     <img src="{{ asset('assets/img/service-icon/service-1.webp')}}" alt="image not found">
                                 </div>
-                                <h4 class="service3__title"><a href="civil-works.html">Civil Works</a></h4>
+                                <h4 class="service3__title"><a href="{{ url('/civil') }}">Civil Works</a></h4>
                                 <p class="small">AL-NOOR AL-HUDA offers comprehensive civil services tailored to project needs, ensuring efficient execution and adherence to local regulations for durable and safe structures. 
                                 </p>
                                 <div class="service3__btn">
-                                    <a href="civil-works.html" class="primary-btn bordered">Know more</a>
+                                    <a href="{{ url('/civil') }}" class="primary-btn bordered">Know more</a>
                                 </div>
                             </div>
                         </div>
@@ -219,11 +219,11 @@
                                 <div class="service3__img bg-2">
                                     <img src="{{ asset('assets/img/service-icon/service-2.webp')}}" alt="image not found">
                                 </div>
-                                <h4 class="service3__title"><a href="glass-works.html">Glass Works</a></h4>
+                                <h4 class="service3__title"><a href="{{ url('/glass') }}">Glass Works</a></h4>
                                 <p class="small">Elevate your spaces with precision-crafted glass installations from AL-NOOR AL-HUDA. Our expertise encompasses innovative designs and expert installation for both residential and commercial projects.
                                 </p>
                                 <div class="service3__btn">
-                                    <a href="glass-works.html" class="primary-btn bordered">Know more</a>
+                                    <a href="{{ url('/glass') }}" class="primary-btn bordered">Know more</a>
                                 </div>
                             </div>
                         </div>
@@ -234,10 +234,10 @@
                                 <div class="service3__img bg-3">
                                     <img src="{{ asset('assets/img/service-icon/service-3.webp')}}" alt="image not found">
                                 </div>
-                                <h4 class="service3__title"><a href="fabrication-works.html">Fabrication Works</a></h4>
+                                <h4 class="service3__title"><a href="{{ url('/fabrication') }}">Fabrication Works</a></h4>
                                 <p class="small">AL-NOOR AL-HUDA specializes in top-notch fabrication solutions, delivering custom-made products to meet diverse project requirements with precision, quality, and timely delivery.</p>
                                 <div class="service3__btn">
-                                    <a href="fabrication-works.html" class="primary-btn bordered">Know more</a>
+                                    <a href="{{ url('/fabrication') }}" class="primary-btn bordered">Know more</a>
                                 </div>
                             </div>
                         </div>
@@ -248,11 +248,11 @@
                                 <div class="service3__img bg-1">
                                     <img src="{{ asset('assets/img/service-icon/service-4.webp')}}" alt="image not found">
                                 </div>
-                                <h4 class="service3__title"><a href="painting-works.html">Painting Works</a></h4>
+                                <h4 class="service3__title"><a href="{{ url('/painting') }}">Painting Works</a></h4>
                                 <p class="small">Transform your interiors and exteriors with AL-NOOR AL-HUDA's professional painting services. Our skilled team delivers impeccable finishes, using quality materials and techniques for lasting results.
                                 </p>
                                 <div class="service3__btn">
-                                    <a href="painting-works.html" class="primary-btn bordered">Know more</a>
+                                    <a href="{{ url('/painting') }}" class="primary-btn bordered">Know more</a>
                                 </div>
                             </div>
                         </div>
@@ -263,11 +263,11 @@
                                 <div class="service3__img bg-2">
                                     <img src="{{ asset('assets/img/service-icon/service-5.webp')}}" alt="image not found">
                                 </div>
-                                <h4 class="service3__title"><a href="carpentary-works.html">Carpentry works</a></h4>
+                                <h4 class="service3__title"><a href="{{ url('/carpentry') }}">Carpentry works</a></h4>
                                 <p class="small">From intricate woodwork to structural enhancements, AL-NOOR AL-HUDA offers skilled carpentry services tailored to your project's needs, ensuring craftsmanship excellence and timely completion.
                                 </p>
                                 <div class="service3__btn">
-                                    <a href="carpentary-works.html" class="primary-btn bordered">Know more</a>
+                                    <a href="{{ url('/carpentry') }}" class="primary-btn bordered">Know more</a>
                                 </div>
                             </div>
                         </div>
@@ -278,10 +278,10 @@
                                 <div class="service3__img bg-3">
                                     <img src="{{ asset('assets/img/service-icon/service-6.webp')}}" alt="image not found">
                                 </div>
-                                <h4 class="service3__title"><a href="gypsum-works.html">Gypsum Works</a></h4>
+                                <h4 class="service3__title"><a href="{{ url('/gypsum') }}">Gypsum Works</a></h4>
                                 <p class="small">Trust us for flawless gypsum installations, enhancing interiors with versatile designs and expert craftsmanship. Our commitment to quality ensures durable and aesthetically pleasing finishes.</p>
                                 <div class="service3__btn">
-                                    <a href="gypsum-works.html" class="primary-btn bordered">Know more</a>
+                                    <a href="{{ url('/gypsum') }}" class="primary-btn bordered">Know more</a>
                                 </div>
                             </div>
                         </div>
@@ -362,7 +362,7 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="df-shop-cat-wrap mb-30 wow fadeInUp" >
-                                        <a href="plumbing-items.html">
+                                        <a href="{{ url('/plumbing') }}">
                                             <div class="df-shop-cat">
                                                 <div class="df-shop-cat-content">
                                                     <div class="df-shop-cat-wrapper cat-1">
@@ -376,7 +376,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="df-shop-cat-wrap mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                                        <a href="electrical-items.html">
+                                        <a href="{{ url('/electrical') }}">
                                             <div class="df-shop-cat">
                                                 <div class="df-shop-cat-content">
                                                     <div class="df-shop-cat-wrapper cat-1">
@@ -390,7 +390,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="df-shop-cat-wrap mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                                        <a href="sanitary-items.html">
+                                        <a href="{{ url('/sanitary') }}">
                                             <div class="df-shop-cat">
                                                 <div class="df-shop-cat-content">
                                                     <div class="df-shop-cat-wrapper cat-1">
@@ -404,7 +404,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="df-shop-cat-wrap mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
-                                        <a href="safety-items.html">
+                                        <a href="{{ url('/safety') }}">
                                             <div class="df-shop-cat">
                                                 <div class="df-shop-cat-content">
                                                     <div class="df-shop-cat-wrapper cat-1">
@@ -418,7 +418,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="df-shop-cat-wrap mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                                        <a href="Paints.html">
+                                        <a href="{{ url('/paint') }}">
                                             <div class="df-shop-cat">
                                                 <div class="df-shop-cat-content">
                                                     <div class="df-shop-cat-wrapper cat-1">
@@ -432,7 +432,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="df-shop-cat-wrap mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                                        <a href="other-items.html">
+                                        <a href="{{ url('/other') }}">
                                             <div class="df-shop-cat">
                                                 <div class="df-shop-cat-content">
                                                     <div class="df-shop-cat-wrapper cat-1">

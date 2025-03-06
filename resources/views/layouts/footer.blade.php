@@ -12,14 +12,10 @@
                         </div>
                         <div class="social-links">
                             <ul>
-                                <li><a href="#"><i class="icon-023-facebook-app-symbol"></i></a>
-                                </li>
-                                <li><a href="#"><i class="icon-025-instagram"></i></a>
-                                </li>
-                                <li><a href="#"><i class="icon-029-pinterest"></i></a>
-                                </li>
-                                <li><a href="#"><i class="icon-twitter-x"></i></a>
-                                </li>
+                                <li><a href="https://www.facebook.com/login/" target="_blank"><i class="icon-023-facebook-app-symbol"></i></a></li>
+                                <li><a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="icon-025-instagram"></i></a></li>
+                                <li><a href="https://www.pinterest.com/login/" target="_blank"><i class="icon-029-pinterest"></i></a></li>
+                                <li><a href="https://x.com/i/flow/login" target="_blank"><i class="icon-twitter-x"></i></a></li>                                
                             </ul>
                         </div>
                     </div>
